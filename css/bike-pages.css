@@ -1,0 +1,144 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/*nav*/
+
+
+nav {
+	height: 100px;
+	width: auto;
+	background-color: #282525;
+	clear: both;
+
+}
+
+
+.logo {
+	padding: 20px 20px 20px 75px;
+	position: relative;
+	float: left;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.hero-links {
+	font-weight: 700;
+	color: white;
+	padding: 20px 75px 20px 20px;
+	position: relative;
+	float: right;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.nav-links {
+	display:inline-block;
+	padding: 0px 20px 0px 20px;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-links a:hover {
+	color: #CA4949; 
+}
+
+/*individual bike view */
+
+.individual-bike {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bike-container {
+	width: auto;
+	height: auto;
+	padding: 75px 75px;
+}
+
+.bike-one {
+	width: 100%;
+}
+
+.individual-bike .bike-container .details{
+	width: auto;
+	height: auto;
+	position: relative;
+	text-align: left;
+	padding: 20px 0px 20px 0px;
+}
+
+.details li {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.details .price {
+	font-weight: 700;
+	font-size: 22px;
+	padding-top: 15px;
+}
+
+.contact-button {
+	width: auto;
+	height: auto;
+	text-align: left;
+	padding: 30px 0px;
+}
+
+.cta {
+  background: #CA4949;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px 70px;
+}
+
+.cta:hover {
+  background-color: #AF3D3D;
+  color: white;
+}
+
+/*footer*/
+
+footer {
+	width: auto;
+	height: 200px;
+	background-color: #282525;
+	clear: left;
+}
+
+.social-media {
+	padding: 20px 20px 20px 75px;
+	position: relative;
+	float: left;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.footer-links {
+	padding: 20px 75px 20px 20px;
+	position: relative;
+	float: right;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.footer-links .footer-info {
+	display: block;
+	color: white;
+	line-height: 25px;
+	text-align: right;
+}
