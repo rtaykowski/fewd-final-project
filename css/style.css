@@ -89,9 +89,8 @@ li {
 /*bike display grid */
 
 .bike-section {
-	width: 100%;
+	width: 80%;
 	height: 100%;
-	float: left;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -99,7 +98,7 @@ li {
 .bike-container {
 	width: auto;
 	height: auto;
-/*	float: left;*/
+	overflow: hidden;
 }
 
 .bike-grid {
