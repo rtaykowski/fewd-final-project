@@ -237,3 +237,22 @@ footer {
 	line-height: 25px;
 	text-align: right;
 }
+
+
+/*rollover styles*/
+.overlay {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	opacity: 0;
+}
+
+.button {
+	height: auto;
+	width: auto;
+	text-decoration: none;
+}
+
+.overlay:hover {
+	opacity: 1;
+}
