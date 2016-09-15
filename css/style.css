@@ -240,7 +240,7 @@ footer {
 
 
 /*rollover styles*/
-.overlay {
+/*.overlay {
 	height: 100%;
 	width: 100%;
 	background-color: rgba(0,0,0,0.7);
@@ -255,4 +255,4 @@ footer {
 
 .overlay:hover {
 	opacity: 1;
-}
+}*/
