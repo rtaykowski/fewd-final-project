@@ -2,14 +2,38 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+/*carousel*/
+
+/*#slide1 {
+  background-image: url(../images/hero-image.png);
+}
+
+#slide2 {
+  background-image: url(../images/hero2.png);
+}
+
+
+.slide-image {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+}*/
+
+
 /*hero section*/
 
 .hero {
-	background-size: cover;
-	background-color: rgba(0,0,0,1);
-  background-image: url(../images/hero-image.png);
-  height: 678px;
-  color: white;
+height: 678px;
+width: 100%;
+background-size: cover;
+color: white;
+background-image: url(../images/hero-image.png);
+}
+
+header {
+	width: 100%;
 }
 
 nav {
@@ -240,7 +264,7 @@ footer {
 
 
 /*rollover styles*/
-/*.overlay {
+.overlay {
 	height: 100%;
 	width: 100%;
 	background-color: rgba(0,0,0,0.7);
@@ -255,4 +279,60 @@ footer {
 
 .overlay:hover {
 	opacity: 1;
-}*/
+}
+
+
+/*MOBILE VERSION*/
+
+ @media screen and (max-width:768px) {
+
+      .hero-links{
+      height:0em; 
+      transition: all 1s; 
+    }
+
+    header {
+      padding: 0px;
+    }
+
+    header .logo {
+      padding-top:8px;
+      padding-left: 10px;
+      margin-top:0px;
+    }
+header nav ul li {
+      display:block; 
+      padding-top: 10px;
+    }
+
+    header nav, header nav .logo{
+     float:none; 
+      
+    }
+
+    nav .hero-links li:first-child{ 
+      position: absolute; 
+      top:.70em; 
+      right:1em; 
+    }
+
+    .line { 
+      width:2em;
+      height:3px;
+      background:white;
+      margin-top:.25em;
+      border:1px solid white;
+    }
+    
+  .open {
+    height:10em; 
+  }
+
+
+/*  layout*/
+
+  .hero {
+  	height: 100%;
+  }
+
+}

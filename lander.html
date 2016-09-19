@@ -19,10 +19,17 @@
 
 	<body>
 	<section class="hero">
+<!-- 		<div class="slide-image" id="slide1"></div>
+		 <div class="slide-image" id="slide2"></div> -->
 		<header>
 			<nav>
 				<div class="logo"> <a href="lander.html"> <img src="images/logo.png"> </a> </div>
 				<ul class= "hero-links">
+					<li>
+              			<div class="line"></div>
+              			<div class="line"></div>
+             			<div class="line"></div>
+           			</li>
 					<li class="nav-links"> <a href="howitworks.html">HOW IT WORKS</a> </li>
 					<li class="nav-links"> <a href="about.html">ABOUT</a> </li>
 				</ul>
@@ -37,22 +44,15 @@
 
 		<section class="bike-section">
 			<div class="bike-container">
-				<div class="row-one">
-					<a href="bike-one.html"><div class="bike-grid" id="bike-one"></div></a>
-
-<!-- 					<div class="overlay">
-
-					<button class="cta" type="button"> <a class="button" href="bike-one.html">VIEW</a> </button>
-
-						<a class="button" href="bike-one.html"> <button class="cta" type="button">VIEW</button> </a>
-					</div>
-
-					</div> -->
-
-
-
-
-					<a href="bike-two.html"><div class="bike-grid" id="bike-two"></div></a>
+                <div class="row-one">
+                    <div class="bike-grid" id="bike-one">
+                        <div class="overlay">
+                            <a class="cta button" href="bike-one.html"> VIEW </a>
+                        </div>
+                    </div>
+                </div>
+         
+                	<a href="bike-two.html"><div class="bike-grid" id="bike-two"></div></a>
 					<a href="bike-three.html"><div class="bike-grid" id="bike-three"></div></a>
 				</div>
 				<div class="row-two">
@@ -81,5 +81,9 @@
 				<li class="footer-info"> &copy; 2016</li>
 			</ul>
 		</footer>
+
+	<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
 	</body>
 	</html>
