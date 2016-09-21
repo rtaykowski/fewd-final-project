@@ -317,6 +317,8 @@ footer {
       position: static;
       top: none;
       transform: none;
+      overflow: hidden;
+      padding: 0 0 0 0;
     }
 
     header {
