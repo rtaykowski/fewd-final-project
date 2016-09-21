@@ -4,7 +4,7 @@ body {
 
 /*carousel*/
 
-/*#slide1 {
+#slide1 {
   background-image: url(../images/hero-image.png);
 }
 
@@ -44,18 +44,18 @@ body {
 
 #left-arrow {
   left: 20px;
-}*/
+}
 
 
 /*hero section*/
 
-.hero {
+/*.hero {
 height: 678px;
 width: 100%;
 background-size: cover;
 color: white;
 background-image: url(../images/hero-image.png);
-}
+}*/
 
 header {
 	width: 100%;
