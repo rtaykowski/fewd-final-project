@@ -19,14 +19,31 @@ body {
   background-position: center;
   background-size: cover;
   display: inline-block;
-}*/
+}
 
-/*.hero {
+#carousel {
   height: 100vh;
   width: 100vw;
   white-space: nowrap;
   overflow: hidden;
   position: relative;
+  color:white;
+}
+
+.arrow {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#right-arrow {
+  right: 20px;
+}
+
+#left-arrow {
+  left: 20px;
 }*/
 
 
@@ -297,6 +314,9 @@ footer {
       .hero-links{
       height: 0em; 
       transition: all 1s;
+      position: static;
+      top: none;
+      transform: none;
     }
 
     header {
@@ -320,7 +340,7 @@ header nav ul li {
 
     nav .hero-links li:first-child{ 
       position: absolute; 
-      top: .70em; 
+      top: 20px; 
       right: 1em; 
     }
 
@@ -346,4 +366,17 @@ header nav ul li {
   	background-color: black;
   }
 
+/*  carousel*/
+
+  .arrow {
+    width: 10%;
+  }
+
+}
+
+
+@media (max-device-width: 1024px) {
+  .arrow {
+    width: 20%;
+  }
 }
