@@ -23,7 +23,7 @@ $(document).ready(function(){
     // width. Set 1000 (1sec) to be the length of the slide transition.
     $firstSlide.animate({marginLeft: -width}, 1000, function(){
       // Reorder slides - move the $firstSlide after the last slide
-      var $lastSlide = $('#carousel').find('div:second')
+      var $lastSlide = $('#carousel').find('div.slide-image:last')
       $lastSlide.after($firstSlide);
 
       // Reset slide position to the end of the queue
@@ -45,7 +45,7 @@ $(document).ready(function(){
     // Get the width of the slide so we know how much to slide by
     var width = $currentSlide.width();
     // Get the previous slide
-    var $previousSlide = $('#carousel').find('div:second')
+    var $previousSlide = $('#carousel').find('div.slide-image:last')
     // Move the previous slide's positition to the front of the queue
     $previousSlide.css({marginLeft: -width})
     $currentSlide.before($previousSlide);
@@ -66,7 +66,7 @@ $(document).ready(function(){
     // Animate to the next slide
     $currentSlide.animate({marginLeft: -width}, 1000, function(){
       // Reorder slides - move the $firstSlide after the last slide
-      var $lastSlide = $('#carousel').find('div:second')
+      var $lastSlide = $('#carousel').find('div.slide-image:last')
       $lastSlide.after($currentSlide);
       // Reset slide position to the end of the queue
       $currentSlide.css({marginLeft: 0})
