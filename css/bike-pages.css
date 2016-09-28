@@ -33,7 +33,7 @@ nav {
 }
 
 .nav-links {
-	display:inline-block;
+	display: block;
 	padding: 0px 20px 0px 20px;
 }
 
@@ -141,4 +141,119 @@ footer {
 	color: white;
 	line-height: 25px;
 	text-align: right;
+}
+
+ @media screen and (max-width:768px) {
+
+ 	/*MOBILE NAV*/
+
+    .hero-links{
+    	height: 0em; 
+    	transition: all 1s;
+    	position: static;
+    	top: none;
+    	transform: none;
+    	overflow: hidden;
+    	padding: 0 0 0 0;
+    }
+
+    header {
+      padding: 0px;
+    }
+
+    header .logo {
+      padding-top: 8px;
+      padding-left: 10px;
+      margin-top: 0px;
+    }
+
+	header nav ul li {
+      display: block; 
+      padding-top: 10px;
+    }
+
+    header nav, header nav .logo {
+     float:none; 
+    }
+
+    nav .hero-links li:first-child{ 
+      position: absolute; 
+      top: 20px; 
+      right: 1em; 
+    }
+
+    .line { 
+      width: 2em;
+      height: 3px;
+      background: white;
+      margin-top: .25em;
+      border: 1px solid white;
+    }
+    
+  .open {
+    height: 15em; 
+  }
+
+
+/*  layout*/
+
+  .hero {
+  	height: 100%;
+  }
+
+  .hero-container {
+  	width: 100%;
+  }
+  
+  nav {
+  	background-color: rgba(0,0,0,0.5);
+  }
+
+  .nav-links {
+	display: block;
+	padding: 10px 20px 10px 20px;
+}
+
+  footer {
+  	height: 300px;
+  }
+
+  .footer-links {
+  	float: none;
+  	transform: none;
+  	top: 0;
+  }
+
+  .social-media {
+  	float: none;
+  	transform: none;
+  	top: 0;
+  	display: inline;
+  	width: 100%;
+  	height: 100%;
+  	position: relative;
+  	padding: 0px;
+  	padding-left: 20px;
+}
+
+#social-divs {
+	position: relative;
+	padding-top: 50px;
+	display: inline-block;
+}
+
+#how {
+	padding-top: 40px;
+}
+
+/*  carousel*/
+
+  .arrow {
+    width: 10%;
+  }
+
+  .slide-image {
+  	width: 100%;
+  }
+
 }
