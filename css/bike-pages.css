@@ -33,8 +33,12 @@ nav {
 }
 
 .nav-links {
-	display: block;
+	display: inline-block;
 	padding: 0px 20px 0px 20px;
+}
+
+#social-divs {
+  display: inline-block;
 }
 
 .nav-links a {
@@ -238,7 +242,7 @@ footer {
 
 #social-divs {
 	position: relative;
-	padding-top: 50px;
+	margin-top: 50px;
 	display: inline-block;
 }
 
