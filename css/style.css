@@ -373,7 +373,9 @@ footer {
 
   .hero-container {
   	width: 100%;
-  }
+  	white-space: normal;
+  	padding: 50px 0px 75px 20px;
+}
   
   nav {
   	background-color: rgba(0,0,0,0.5);
