@@ -74,8 +74,9 @@ nav {
 	padding: 20px 20px 20px 75px;
 	position: relative;
 	float: left;
-  	top: 50%;
-  	transform: translateY(-50%);
+	z-index: 1;
+/*  	top: 50%;
+  	transform: translateY(-50%);*/
 }
 
 .hero-links {
@@ -152,6 +153,8 @@ li {
 	width: auto;
 	height: auto;
 	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .bike-grid {
@@ -317,14 +320,16 @@ footer {
 
  	/*MOBILE NAV*/
 
-    .hero-links{
+    .hero-links {
     	height: 0em; 
     	transition: all 1s;
     	position: static;
-    	top: none;
+    	top: 0;
     	transform: none;
     	overflow: hidden;
     	padding: 0 0 0 0;
+    	float: right;
+    	margin-top: 90px;
     }
 
     header {
@@ -332,7 +337,7 @@ footer {
     }
 
     header .logo {
-      padding-top: 8px;
+      padding-top: 25px;
       padding-left: 10px;
       margin-top: 0px;
     }
@@ -375,6 +380,10 @@ footer {
   	width: 100%;
   	white-space: normal;
   	padding: 50px 0px 75px 20px;
+}
+
+.bike-section {
+	width: 85%;
 }
   
   nav {
